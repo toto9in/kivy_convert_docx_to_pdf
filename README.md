@@ -10,17 +10,20 @@ To use the program, simply drag and drop a docx or LibreOffice Writer archive on
 
 To run the program, you will need to have the following software installed on your system:
 
-- Python 3.x
+- Python 3.10.12
 - Kivy framework
-- LibreOffice converter tool
+- LibreOffice installed in the machine
 
 ## Installation
 
 To install the program, follow these steps:
 
-1. Clone the repository to your local machine.
-2. Install the required dependencies using pip: `pip install -r requirements.txt`
-3. Run the program using Python: `python main.py`
+1. Create a virtual environment: `python -m venv env`
+2. Activate the virtual environment: `source env/bin/activate` (Linux/Mac) or `env\Scripts\activate` (Windows)
+3. Clone the repository to your local machine.
+4. Install the required dependencies using pip: `pip install -r requirements.txt`
+5. Build the executable using PyInstaller: `pyinstaller --onefile main.py`
+6. The executable will be created in the `dist` folder.
 
 ## License
 
