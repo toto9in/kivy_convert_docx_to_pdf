@@ -1,6 +1,6 @@
 __pycache__
-build
+/build
 env
 main.spec
-dist
+/dist
 kivy_project
