@@ -10,7 +10,7 @@ To use the program, simply drag and drop a docx or LibreOffice Writer archive on
 
 To run the program, you will need to have the following software installed on your system:
 
-- Python 3.10.12
+- Python 3.10.12 (version used and tested)
 - Kivy framework
 - LibreOffice installed in the machine
 
@@ -24,6 +24,8 @@ To install the program, follow these steps:
 4. Install the required dependencies using pip: `pip install -r requirements.txt`
 5. Build the executable using PyInstaller: `pyinstaller --onefile main.py`
 6. The executable will be created in the `dist` folder.
+
+OBS: pyinstaller==5.0 was used because was the tested version
 
 ## License
 
